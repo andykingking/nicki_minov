@@ -1,0 +1,50 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (4.1.7)
+      i18n (~> 0.6, >= 0.6.9)
+      json (~> 1.7, >= 1.7.7)
+      minitest (~> 5.1)
+      thread_safe (~> 0.1)
+      tzinfo (~> 1.1)
+    birch (0.0.8)
+    coderay (1.1.0)
+    httpclient (2.5.3.2)
+    i18n (0.6.11)
+    json (1.8.1)
+    method_source (0.8.2)
+    mime-types (1.25.1)
+    minitest (5.4.2)
+    msgpack (0.5.8)
+    progressbar (0.21.0)
+    pry (0.10.1)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    ruby-progressbar (1.7.0)
+    rubyzip (0.9.9)
+    schiphol (1.0.1)
+      progressbar (>= 0.10.0)
+      rubyzip (~> 0.9.9)
+    slop (3.6.0)
+    thread_safe (0.3.4)
+    treat (2.1.0)
+      birch
+      schiphol
+      yomu
+    tzinfo (1.2.2)
+      thread_safe (~> 0.1)
+    yomu (0.2.0)
+      json (~> 1.8)
+      mime-types (~> 1.23)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  activesupport
+  httpclient
+  msgpack
+  pry
+  ruby-progressbar
+  treat
